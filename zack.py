@@ -92,29 +92,7 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-#_________Year checker_________#
-def asha(uid):
-    if len(uid)==15:
-        if uid[:10] in ['1000000000']       :alif = ' (*-*) 2009 √'
-        elif uid[:9] in ['100000000']       :alif = ' ACCOUNT  2009 √'
-        elif uid[:8] in ['10000000']        :alif = ' ACCOUNT 2009 √'
-        elif uid[:7] in ['1000000','1000001','1000002','1000003','1000004','1000005']:alif = ' ACCOUNT 2009 √'
-        elif uid[:7] in ['1000006','1000007','1000008','1000009']:alif = ' ACCOUNT 2010 √'
-        elif uid[:6] in ['100001']          :alif = ' ACCOUNT 2010/2011 √'
-        elif uid[:6] in ['100002','100003'] :alif = ' ACCOUNT 2011/2012 √'
-        elif uid[:6] in ['100004']          :alif = ' ACCOUNT 2012/2013 √'
-        elif uid[:6] in ['100005','100006'] :alif = ' ACCOUNT 2013/2014 √'
-        elif uid[:6] in ['100007','100008'] :alif = ' ACCOUNT 2014/2015 √'
-        elif uid[:6] in ['100009']          :alif = ' ACCOUNT 2015 √'
-        elif uid[:5] in ['10001']           :alif = ' ACCOUNT 2015/2016 √'
-        elif uid[:5] in ['10002']           :alif = ' ACCOUNT 2016/2017 √'
-        elif uid[:5] in ['10003']           :alif = ' ACCOUNT 2018/2019 √'
-        elif uid[:5] in ['10004']           :alif = ' ACCOUNT 2019/2020 √'
-        elif uid[:5] in ['10005']           :alif = ' ACCOUNT 2020 √'
-        elif uid[:5] in ['10006','10007','']:alif = ' ACCOUNT 2021 √'
-        elif uid[:5] in ['10008']           :alif = ' ACCOUNT 2022 √'
-        elif uid[:5] in ['10009']           :alif = ' ACCOUNT 2023 √'
-        else:alif=''
+#_________Year checker
     elif len(uid) in [9,10]:
         alif = ' ACCOUNT 2008/2009 √'
     elif len(uid)==8:
@@ -696,4 +674,5 @@ def apix(ids,passlist):
 		
 Spy()
 
-  
+
+	

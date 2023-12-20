@@ -92,21 +92,14 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-#_________Year checker
-    elif len(uid) in [9,10]:
-        alif = ' ACCOUNT 2008/2009 √'
-    elif len(uid)==8:
-        alif = ' ACCOUNT 2007/2008 √'
-    elif len(uid)==7:
-        alif = ' ACCOUNT 2006/2007 √'
-    else:alif=''
-    return alif
-    #_________[ LOGIN KEY ]______>>
+#_________[ LOGIN KEY ]______>>
 CorrectUsername = 'ZACE'
 key = 'Zace'
-while key == 'zace':
+
+while key == 'free':
     username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: \1b[1;92m')
-    if username == CorrectUsername:
+    
+	if username == CorrectUsername:
             print(f'\33[1;37m-----------------------------------------------\\33[0;97m[•]\33[1;32m LOGGED IN ZACE TOOL SUCCESSFULLY') 
             time.sleep(1)
             clear()

@@ -92,18 +92,6 @@ cps=[]
 pcp=[]
 id=[]
 tokenku=[]
-#_________[ LOGIN KEY ]______>>
-CorrectUsername = 'ZACE'
-key = 'Zace'
-
-while key == 'free':
-    username = input('\33[0;97m[•]\33[1;96m•────➤\33[1;92mENTER KEY \33[1;91m: \1b[1;92m')
-    
-	if username == CorrectUsername:
-            print(f'\33[1;37m-----------------------------------------------\\33[0;97m[•]\33[1;32m LOGGED IN ZACE TOOL SUCCESSFULLY') 
-            time.sleep(1)
-            clear()
-            key = 'false'
 
 def fucked():
 	print(' Server Loadin.......')

